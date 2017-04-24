@@ -19,5 +19,13 @@ $(document).ready(function(){
 		$(this).removeClass('unclicked').addClass('clicked');
 	});
 	
-	
+	//drop down when clicked
+	$('#nav-button').click(function(){
+		if ( $('#nav-bar').is(':hidden')) {
+			$('#nav-bar').slideDown('slow');
+		} else {
+			$('#nav-bar').slideUp('slow');
+		}	
+	});
+		
 });

@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+	background-color: #E4CCC2;
+	font-family: 'Open Sans', sans-serif;
+	color: #1A181E;
+}
+
+header {
+	margin: 0;
+}
+
+#nav-bar {
+	background-color: #CB807D;
+	width: 30%;
+	height: 100vh;
+	margin: 0;
+	text-align: left;
+}
+
+#nav-bar li {
+	width: 200px;
+	height: 50px;
+	list-style: none;
+}
+
+#nav-bar li a {
+	text-decoration: none;
+	color: #1A181E;
+}
+
+.unclicked span {
+	display: none;
+}
+
+.clicked span {
+	display: inline-block;
+}
